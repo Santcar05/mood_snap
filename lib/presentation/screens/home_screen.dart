@@ -12,6 +12,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final TextEditingController _controller = TextEditingController();
   final MoodService _moodService = MoodService();
+  // Estado actual del reporte de ánimo, inicialmente vacío
 
   // Nuestra entidad inicializada por defecto
   MoodReport _currentReport = MoodReport.initial();
